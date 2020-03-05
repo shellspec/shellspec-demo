@@ -1,0 +1,6 @@
+.dockerignore
+.replit
+Dockerfile
+clean.sh
+run.sh
+coverage

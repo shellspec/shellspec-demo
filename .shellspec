@@ -1,0 +1,2 @@
+--require spec_helper
+--kcov-options "--exclude-pattern=/spec/,/coverage/,/report/,setup.sh,run.sh,docker-entrypoint.sh"
