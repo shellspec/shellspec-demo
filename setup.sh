@@ -17,7 +17,7 @@ run() {
 }
 
 if ! type shellspec >/dev/null 2>&1; then
-  run "curl -fsSL https://git.io/shellspec | sh -s -- -y"
+  run "curl -fsSL https://git.io/shellspec | sh -s master -y"
 fi
 type tree >/dev/null 2>&1 && run tree
 
